@@ -1,21 +1,21 @@
-import Structures.Array;
-import Structures.LinkedList;
-
-import java.util.Arrays;
+import Structures.Stacks.StackByList;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome To Problem Solving In Java!");
 
-        LinkedList list = new LinkedList();
-        list.addLast(10);
-        list.addLast(20);
-        list.addLast(30);
-        list.addLast(40);
-        list.addLast(50);
-
-        list.reverse();
-        System.out.println(Arrays.toString(list.toArray()));
-        System.out.println(list.getKthFromEnd(5));
+        StackByList stack = new StackByList();
+        System.out.println(stack.isEmpty());
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        stack.push(50);
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        System.out.println(stack);
+        System.out.println(stack.peek());
+        System.out.println(stack.isEmpty());
     }
 }
