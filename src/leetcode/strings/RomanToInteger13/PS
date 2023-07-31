@@ -1,0 +1,26 @@
+@Inputs
+seven different symbols: I, V, X, L, C, D and M.
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+
+@Outputs
+Integer
+
+#Constraints
+    1 <= string.length <= 15
+    string contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
+    It is guaranteed that string is a valid roman numeral in the range [1, 3999].
+---------------------------------------------
+@Pseudo-Code.
+- parse symbols to integer
+- going from the end if number is followed by (greater than) number {subtract number}else {add number}
+[1, 10, 100]
+[I] followed by [V - X] to make 4-9
+[X] followed by [L - C] to make 40-90
+[C] followed by [D - M] to make 400-900

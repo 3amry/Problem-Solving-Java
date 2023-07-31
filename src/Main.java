@@ -1,18 +1,13 @@
-import Structures.HashTables.Checker;
-import Structures.HashTables.HashTable;
-
+import leetcode.strings.RomanToInteger13.RomanToInteger;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome To Problem Solving In Java!");
 
-        var table = new HashTable();
-        table.put(4, "ahem");
-        table.put(6, "A");
-        table.put(6, "A+");
-        table.put(8, "B");
-        table.put(11, "C");
-        table.remove(11);
-        System.out.println(table.get(6));
+        RomanToInteger parser = new RomanToInteger();
+        parser.parseRoman("III");
+        parser.parseRoman("LVIII");
+        parser.parseRoman("MCMXCIV");
+        parser.parseRoman("MCDLXXVI");
     }
 }
