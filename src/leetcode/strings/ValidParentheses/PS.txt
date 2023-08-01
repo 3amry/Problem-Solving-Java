@@ -1,0 +1,14 @@
+@Inputs
+different types of brackets
+
+@Outputs
+boolean
+
+#Constraints
+    1 <= s.length <= 104
+    s consists of parentheses only '()[]{}'.
+
+
+---------------------------------------------
+@Pseudo-Code.
+best efficient way to use a stack, two arrays and two maps.
