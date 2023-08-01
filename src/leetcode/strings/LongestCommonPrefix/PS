@@ -1,0 +1,16 @@
+@Inputs
+array of strings
+
+@Outputs
+longest common prefix string
+
+#Constraints
+    1 <= strs.length <= 200
+    0 <= strs[i].length <= 200
+    strs[i] consists of only lowercase English letters.
+
+
+---------------------------------------------
+@Pseudo-Code.
+get first string and compare with each string in array
+concat repeated prefix characters to output
