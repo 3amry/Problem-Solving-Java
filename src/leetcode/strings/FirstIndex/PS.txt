@@ -1,0 +1,14 @@
+@Inputs
+two strings [haystack and needle]
+
+@Outputs
+index
+
+#Constraints
+    1 <= haystack.length, needle.length <= 104
+    haystack and needle consist of only lowercase English characters.
+
+
+---------------------------------------------
+@Pseudo-Code.
+loop over the hay to find a match
