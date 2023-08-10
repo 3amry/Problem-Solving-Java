@@ -1,12 +1,13 @@
-import leetcode.strings.AddBinary.AddBinary;
-import leetcode.strings.AddBinary.AddBinaryV2;
+import leetcode.strings.ValidPalindrome.ValidPalindrome;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome To Problem Solving In Java!");
 
-        System.out.println(AddBinaryV2.add("1010", "11"));
-        System.out.println(AddBinaryV2.add("100101", "10101"));
-        System.out.println(AddBinaryV2.add("1111", "1101"));
+        System.out.println(ValidPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
+        System.out.println(ValidPalindrome.isPalindrome("race a car"));
+        System.out.println(ValidPalindrome.isPalindrome(""));
+        System.out.println(ValidPalindrome.isPalindrome(" "));
+        System.out.println(ValidPalindrome.isPalindrome("abb "));
     }
 }
