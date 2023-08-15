@@ -1,0 +1,23 @@
+@Inputs
+Int (column number)
+
+@Outputs
+String (column title)
+
+#Constraints
+    1 <= columnNumber <= 2^31 - 1
+
+---------------------------------------------
+@Pseudo-Code.
+Main calculation is input/26
+-get the remainder to get the nth title
+_special case is when remainder = 0 (then it's 'Z' and nth--)
+-get the quotient to get the nth nth title
+_special case when quotient is more than 26 then repeat what we just did above
+
+-support function intToChar {
+ add 64(ASCII Uppercase) to int
+ then cast it to char
+
+            OR {char = '@' + int}
+}

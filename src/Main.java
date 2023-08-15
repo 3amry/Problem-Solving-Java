@@ -1,13 +1,15 @@
-import leetcode.strings.ValidPalindrome.ValidPalindrome;
+import leetcode.strings.ExcelSheetColumnTitle.ColumnTitle;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome To Problem Solving In Java!");
 
-        System.out.println(ValidPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
-        System.out.println(ValidPalindrome.isPalindrome("race a car"));
-        System.out.println(ValidPalindrome.isPalindrome(""));
-        System.out.println(ValidPalindrome.isPalindrome(" "));
-        System.out.println(ValidPalindrome.isPalindrome("abb "));
+        System.out.println(ColumnTitle.getTitle(0));
+        System.out.println(ColumnTitle.getTitle(26));
+        System.out.println(ColumnTitle.getTitle(27));
+        System.out.println(ColumnTitle.getTitle(28));
+        System.out.println(ColumnTitle.getTitle(701));
+        System.out.println(ColumnTitle.getTitle(703));
+        System.out.println(ColumnTitle.getTitle(2147483647)); //FXSHRXW
     }
 }
