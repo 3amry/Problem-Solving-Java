@@ -1,4 +1,4 @@
-package leetcode.strings.AddBinary;
+package leetcode.strings.AddBinary_67;
 
 import java.util.Stack;
 

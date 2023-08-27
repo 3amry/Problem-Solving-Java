@@ -1,4 +1,4 @@
-package leetcode.strings.ExcelSheetColumnTitle;
+package leetcode.strings.ExcelSheetColumnTitle_168;
 
 public class ColumnTitle {
     public static StringBuilder getTitle(int columnNumber){

@@ -1,6 +1,6 @@
-package leetcode.strings.FirstIndex;
+package leetcode.strings.IndexOfFirst_28;
 
-public class FirstIndex {
+public class IndexOfFirst {
     public static int find(String haystack, String needle){
         int index = -1;
         for (int i = 0; i < haystack.length(); i++){
