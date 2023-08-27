@@ -1,0 +1,20 @@
+@Inputs
+integer array nums sorted in non-decreasing order.
+
+
+@Outputs
+-- custom judge --
+return  k (number of unique elements in nums)
+-first k elements in nums should be unique
+
+#Constraints
+    1 <= nums.length <= 3 * 104
+    -100 <= nums[i] <= 100
+    nums is sorted in non-decreasing order.
+---------------------------------------------
+@Pseudo-Code.
+loop over nums where i = 1;
+ if
+  nums[k] != nums[i]
+   k++;
+   nums[k] = nums[i];
