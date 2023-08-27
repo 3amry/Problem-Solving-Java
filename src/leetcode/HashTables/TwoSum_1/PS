@@ -1,0 +1,14 @@
+@Inputs
+array of integers nums and an integer target.
+
+@Outputs
+return indices of the two numbers such that they add up to target.
+
+#Constraints
+    2 <= nums.length <= 104
+    -109 <= nums[i] <= 109
+    -109 <= target <= 109
+    Only one valid answer exists.
+---------------------------------------------
+@Pseudo-Code.
+add the complement (to be equal to target) to a hash table as a key with its value as the [index of] number.
