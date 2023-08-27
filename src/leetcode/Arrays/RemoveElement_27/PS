@@ -1,0 +1,20 @@
+@Inputs
+integer array nums and an integer val.
+
+
+@Outputs
+-- custom judge --
+return  k (number of elements that are not equal to val)
+-first k elements in nums should not be equal to val.
+
+#Constraints
+    0 <= nums.length <= 100
+    0 <= nums[i] <= 50
+    0 <= val <= 100
+---------------------------------------------
+@Pseudo-Code.
+loop over nums
+ if
+  nums[i] != val
+   nums[k] = nums[i];
+   k++;
