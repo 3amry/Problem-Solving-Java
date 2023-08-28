@@ -1,0 +1,28 @@
+@Inputs
+array nums of size n
+
+@Outputs
+return the majority element that appears more than ⌊n / 2⌋
+
+#Constraints
+    n == nums.length
+    1 <= n <= 5 * 104
+    -109 <= nums[i] <= 109
+---------------------------------------------
+@Pseudo-Code.
+Approach 1: sorting in place and using a temp counter
+//  Time complexity: O(nlog(n))
+//  Space Complexity: O(1)
+
+Approach 2: using map
+ looping over all numbers and mapping them to the number of their occurrences.
+  then search for a value more than n/2
+//  Time complexity: O(n)
+//  Space Complexity: O(n)
+
+Approach 3: Moore Voting Algorithm
+The intuition behind the Moore's Voting Algorithm is based on the fact that if there is a majority element in an array,
+ it will always remain in the lead, even after encountering other elements.
+//  Time complexity: O(n)
+//  Space Complexity: O(1)
+https://www.cs.utexas.edu/~moore/best-ideas/mjrty/
