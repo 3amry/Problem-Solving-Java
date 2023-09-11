@@ -1,0 +1,14 @@
+@Inputs
+["MyQueue", "push", "push", "peek", "pop", "empty"]
+[[], [1], [2], [], [], []]
+
+@Outputs
+[null, null, null, 1, 1, false]
+
+#Constraints
+    1 <= x <= 9
+    At most 100 calls will be made to push, pop, top, and empty.
+    All the calls to pop and top are valid.
+
+---------------------------------------------
+@Pseudo-Code.
