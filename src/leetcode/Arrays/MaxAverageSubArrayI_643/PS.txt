@@ -1,0 +1,20 @@
+@Inputs
+integer array nums consisting of n elements, and an integer k.
+
+@Outputs
+double
+
+#Constraints
+    n == nums.length
+    1 <= k <= n <= 105
+    -104 <= nums[i] <= 104
+
+---------------------------------------------
+@Pseudo-Code.
+main idea here is to add kth elements storing it into max variable
+ then for each more element we add
+  we subtract the first element from sum as well, so that it's always sum of kth elements
+   then max = Math.max(old sum, new sum) as we iterate.
+
+one way is to use a sliding window technique (which is better)
+similar approach is using cumulative sum array approach
