@@ -1,0 +1,12 @@
+@Inputs
+Given an integer array nums
+
+@Outputs
+boolean
+
+#Constraints
+    1 <= nums.length <= 105
+    -109 <= nums[i] <= 109
+
+---------------------------------------------
+@Pseudo-Code.
