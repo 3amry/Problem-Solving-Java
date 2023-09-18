@@ -1,0 +1,14 @@
+@Inputs
+sorted linked list
+
+@Outputs
+sorted linked list without duplicates.
+
+#Constraints
+    The number of nodes in the list is in the range [0, 300].
+    -100 <= Node.val <= 100
+    The list is guaranteed to be sorted in ascending order.
+
+---------------------------------------------
+@Pseudo-Code.
+because the list is sorted we could iterate over the list and if the value is equal to previous we skip it.

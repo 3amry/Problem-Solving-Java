@@ -1,0 +1,18 @@
+@Inputs
+two sorted linked lists
+
+@Outputs
+one sorted linked list
+
+#Constraints
+    The number of nodes in both lists is in the range [0, 50].
+    -100 <= Node.val <= 100
+    Both list1 and list2 are sorted in non-decreasing order.
+
+---------------------------------------------
+@Pseudo-Code.
+1- make a new list
+2- check if l1.next <= l2.next
+3- add each node to the new sorted list dependently on the result
+-- we could decrease space complexity and accessibility dependencies by
+ choosing (l1 or l2) to be our combined sorted list instead of making a new one.
