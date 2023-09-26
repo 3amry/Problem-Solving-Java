@@ -1,0 +1,20 @@
+@Inputs
+String (column title)
+
+@Outputs
+Int (column number)
+
+#Constraints
+    1 <= columnTitle.length <= 7
+    columnTitle consists only of uppercase English letters.
+    columnTitle is in the range ["A", "FXSHRXW"].
+
+---------------------------------------------
+@Pseudo-Code.
+-get the corresponding number of each title then multiply it with its position like decimals.
+
+-support function charToNumber {
+ subtract 64(ASCII Uppercase) from char
+
+            OR {int number = char - '@'}
+}
