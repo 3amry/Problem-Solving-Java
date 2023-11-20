@@ -1,0 +1,19 @@
+@Inputs
+two strings [s and t]
+
+@Outputs
+boolean
+
+#Constraints
+    1 <= s.length <= 5 * 104
+    t.length == s.length
+    s and t consist of any valid ascii character.
+
+
+---------------------------------------------
+@Pseudo-Code.
+-every letter has a print we can map it with its index to the number of its occurrences.
+  so that if swapped the letter with another it should have the same print.
+
+-another solution is to map every letter to the index of its last appearance, and
+  it has to match with the adjacent letter in the other string.

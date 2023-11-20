@@ -1,23 +1,20 @@
-import leetcode.strings.ExcelSheetColumnNumber_171.ColumnNumber;
-import leetcode.strings.ExcelSheetColumnTitle_168.ColumnTitle;
+import leetcode.strings.IsomorphicStrings_205.Isomorphic;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome To Problem Solving In Java!");
 
 
-        System.out.println(ColumnTitle.getTitle(0));
-        System.out.println(ColumnTitle.getTitle(26));
-        System.out.println(ColumnTitle.getTitle(27));
-        System.out.println(ColumnTitle.getTitle(28));
-        System.out.println(ColumnTitle.getTitle(701));
-        System.out.println(ColumnTitle.getTitle(703));
-        System.out.println(ColumnTitle.getTitle(2147483647)); //FXSHRXW
+        System.out.println(Isomorphic.isIsomorphic("egg", "add"));
+        System.out.println(Isomorphic.isIsomorphic("foo", "bar"));
+        System.out.println(Isomorphic.isIsomorphic("paper", "title"));
+        System.out.println(Isomorphic.isIsomorphic("bbbaaaba", "aaabbbba"));
+        System.out.println(Isomorphic.isIsomorphic("badc", "baba"));
 
-        System.out.println(ColumnNumber.titleToNumber("Z"));
-        System.out.println(ColumnNumber.titleToNumber("AA"));
-        System.out.println(ColumnNumber.titleToNumber("AB"));
-        System.out.println(ColumnNumber.titleToNumber("ZY"));
-        System.out.println(ColumnNumber.titleToNumber("AAA"));
+        System.out.println(Isomorphic.isIsomorphic2("egg", "add"));
+        System.out.println(Isomorphic.isIsomorphic2("foo", "bar"));
+        System.out.println(Isomorphic.isIsomorphic2("paper", "title"));
+        System.out.println(Isomorphic.isIsomorphic2("bbbaaaba", "aaabbbba"));
+        System.out.println(Isomorphic.isIsomorphic2("badc", "baba"));
     }
 }
