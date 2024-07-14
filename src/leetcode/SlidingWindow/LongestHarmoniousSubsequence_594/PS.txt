@@ -1,0 +1,15 @@
+@Inputs
+int[]
+
+@Outputs
+int
+
+#Constraints:
+    1 <= nums.length <= 2 * 104
+    -109 <= nums[i] <= 109
+
+---------------------------------------------
+@Pseudo-Code.
+- we need two loops first one: for the whole array, second one: is to find LHS for that number.
+- for every number we hold two counts for both positive and negative one, both counts get reset every loop.
+- we hold a global maxCount Or LHS.
