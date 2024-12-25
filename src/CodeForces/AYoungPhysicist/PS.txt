@@ -1,0 +1,18 @@
+@Inputs
+The first line contains a positive integer n (1≤n≤100),
+ then follow n lines containing three integers each:
+  the xi coordinate, the yi coordinate and the zi coordinate of the force vector,
+   applied to the body (-100 ≤xi,yi,zi≤ 100).
+
+@Outputs
+Print the word "YES" if the body is in equilibrium, or the word "NO" if it is not.
+
+#Constraints
+- time limit per test2: seconds
+- memory limit per test: 256 megabytes
+
+---------------------------------------------
+@Pseudo-Code.
+- initiate 3 variables (x,y,z)<short>
+- loop over n<byte> lines (each line has 3 values) sum first to x, second to y, third to z.
+- if x, y and z are all equals zero then it's "YES", else it's "NO"
