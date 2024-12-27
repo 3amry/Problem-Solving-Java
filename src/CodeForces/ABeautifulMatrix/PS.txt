@@ -1,0 +1,20 @@
+@Inputs
+The input consists of five lines, each line contains five integers:
+ the j-th integer in the i-th line of the input represents the element of the matrix that is
+  located on the intersection of the i-th row and the j-th column.
+   It is guaranteed that the matrix consists of 24 zeroes and a single number one.
+
+@Outputs
+Print a single integer — the minimum number of moves needed to make the matrix beautiful.
+
+#Constraints
+- time limit per test2: seconds
+- memory limit per test: 256 megabytes
+
+---------------------------------------------
+@Pseudo-Code.
+- initiate a matrix with 5 rows and 5 columns all set to zero. (optional)
+- loop over the inputs and assign each value to it's corresponding place in the matrix. (optional)
+- once you find the odd number (1) calculate the moves and return it.
+   using formula i / 5 for moves in rows,
+    and i % 5 (remainder) for moves in columns.
