@@ -1,0 +1,20 @@
+@Inputs
+The first line contains a number in Borze code.
+ The length of the string is between 1 and 200 characters.
+  It's guaranteed that the given string is a valid Borze code of some ternary number
+   (this number can have leading zeroes).
+
+@Outputs
+Output the decoded ternary number. It can have leading zeroes
+
+#Constraints
+- time limit per test2: seconds
+- memory limit per test: 256 megabytes
+
+---------------------------------------------
+@Pseudo-Code.
+- use a string builder to store the decoded number and concatenate to it.
+- use a for loop to check:
+    if it's a '.' then push a '0'
+    if it's a '-' followed by a '.' push a '1' and increment loop counter
+    else push a '2' and increment loop counter
