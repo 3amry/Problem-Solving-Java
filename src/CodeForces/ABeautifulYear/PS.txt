@@ -1,0 +1,20 @@
+@Inputs
+-The single line contains integer y (1000≤y≤9000) — the year number.
+
+@Outputs
+Print a single integer — the minimum year number that is strictly larger than y
+ and all it's digits are distinct. It is guaranteed that the answer exists.
+
+#Constraints
+- time limit per test2: seconds
+- memory limit per test: 256 megabytes
+
+---------------------------------------------
+@Pseudo-Code.
+#First is to know if it's distinct (boolean function).
+- create a hashset to store distinct digits.
+- use the remainder to extract digits.
+- add each digit to the set
+ (if it returns false?) then it's not distinct.
+ if set size == input integer length then it's distinct.
+#Second integer++ till you find the next beautiful year (returns int).
