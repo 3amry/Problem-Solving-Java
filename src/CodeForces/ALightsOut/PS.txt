@@ -1,0 +1,24 @@
+https://codeforces.com/problemset/problem/275/A
+
+@Inputs
+-The input consists of three rows. Each row contains three integers each between
+ 0 to 100 inclusive. The j-th number in the i-th row is the number of times the j-th light
+  of the i-th row of the grid is pressed.
+
+@Outputs
+Print three lines, each containing three characters. The j-th character of the i-th line
+ is "1" if and only if the corresponding light is switched on, otherwise it's "0".
+
+#Constraints
+- time limit per test2: seconds
+- memory limit per test: 256 megabytes
+
+---------------------------------------------
+@Pseudo-Code.
+- we have a matrix 3X3 while all the values are 1.
+- if the number of times a switch is pressed is odd then it's 0 (light out).
+- create a helper function to find adjacent cells.
+   /adjacent cells are those who share either the same row or the same column.
+   /x and y must be in bounds >= 0 && <= 2;
+   /(x-y) must be <= 1
+- loop over the matrix and match the cells with their adjacent cells.
