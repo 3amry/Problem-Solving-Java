@@ -1,9 +1,9 @@
-import CodeForces.ALightsOut.ALightsOut;
+import CodeForces.APrediction.PrimeUtility;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome To Problem Solving In Java!");
 
-        ALightsOut.lightOut();
+        PrimeUtility.isNextPrime();
     }
 }
